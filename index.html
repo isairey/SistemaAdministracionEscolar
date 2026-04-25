@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Open+Sans&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Administración Escolar</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Instituto Alabama</h1>
+        <p class="header__slogan">Unidos por la excelencia académica y ética</p>
+    </header>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li><a class="navbar__link navbar__link--active" href="index.html">Inicio</a></li>
+            <li><a class="navbar__link" href="#">Quiénes somos</a></li>
+            <li><a class="navbar__link" href="#">Oferta educativa</a></li>
+            <li><a class="navbar__link" href="#">Requisitos de inscripción</a></li>
+            <li><a class="navbar__link" href="#">Accesso</a></li>
+            <li><a class="navbar__link" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <br>
+        <div class="slider">
+            <div class = "slide fade">
+                <img src = "assets/primaria.jpg" class="slide__img">
+            </div>
+            <div class = "slide fade">
+                <img src = "assets/primaria_1.jpg" class="slide__img">
+            </div>
+            <div class = "slide fade">
+                <img src = "assets/primaria_2.jpg" class="slide__img">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       
+        </div>
+        <br>
+        <label class = "subtitle">Oferta Educativa</label>
+
+    </main>
+    <script type = "text/javascript" src="js/main.js"></script>
+</body>
+</html>

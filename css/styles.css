@@ -1,0 +1,140 @@
+/* 
+    1rem = 16px
+*/
+
+:root{
+    /* Global variables */
+    --primary-color: #294A70;
+    --secondary-color: #F4A024;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+}
+
+/* Reset properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+/* Header */
+.header{
+    padding: 1.5rem 4rem;
+}
+.header__title{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.header__slogan{
+    color: #7D7D7D;
+    font-size: .9rem;
+    font-family: var(--secondary-font);
+    line-height: 21px;
+    font-weight: 400;
+}
+
+/* Navbar */
+.navbar{
+    background-color: var(--primary-color);
+}
+.navbar::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: var(--secondary-color);
+}
+
+.navbar-menu{
+    display: flex;
+    padding-left: 4rem;
+    list-style-type: none;
+}
+.navbar__link{
+    font-family:  var(--secondary-font);
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .8rem 2rem;
+    border-left: 1px solid white;
+    transition: .3s all ease-in-out;
+}
+.navbar__link:hover{
+    background-color: var(--secondary-color);
+}
+.navbar__link--active{
+    background-color: var(--secondary-color);
+}
+
+/* Slider*/
+.slider {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.slide{
+    display: none;
+    width: auto;
+}
+.slide__img{
+    width: 100%;
+    height: 500px;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:var(--secondary-color);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.subtitle{
+    font-family: var(--secundary-font);
+    color: var(--secondary-color);
+    font-size: 35px;
+    padding: 50px;
+
+    
+}
+
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev{
+    left: 0;
+}
+
+/* Animación */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* Main */
+
+/* Footer */
