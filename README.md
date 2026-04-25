@@ -65,15 +65,16 @@ Los datos se almacenan de manera local, por lo que no se pierden al recargar la 
 
 ## 🎨 Interfaz
 
-Diseño simple y amigable
-Adaptable a diferentes tamaños de pantalla
-Navegación intuitiva
-📈 Mejoras futuras
-🔐 Sistema de autenticación (login)
-☁️ Integración con base de datos (Firebase o MySQL)
-📊 Reportes y estadísticas
-📱 Versión móvil optimizada
-🧑‍💻 Panel de administración avanzado
+- Diseño simple y amigable
+- Adaptable a diferentes tamaños de pantalla
+- Navegación intuitiva
+
+- 📈 Mejoras futuras
+- 🔐 Sistema de autenticación (login)
+- ☁️ Integración con base de datos (Firebase o MySQL)
+- 📊 Reportes y estadísticas
+- 📱 Versión móvil optimizada
+- 🧑‍💻 Panel de administración avanzado
 
 ## 👨‍💻 Autor
 
