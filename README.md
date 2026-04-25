@@ -50,11 +50,11 @@ Este sistema permite llevar un control estructurado de los datos escolares sin n
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tuusuario/sistema-escolar.git
+git clone https://github.com/isairey/SistemaAdministracionEscolar.git
 ```
 Accede a la carpeta del proyecto:
 ```
-cd sistema-escolar
+cd SistemaAdministracionEscolar
 ```
 Abre el archivo index.html en tu navegador.
 ## 💡 Funcionamiento
